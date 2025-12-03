@@ -1,0 +1,58 @@
+For Devops Lab test
+
+
+
+first, to clone the file, copy the link http....
+Go cmd and create ET0735, "mkdir ET0735"
+
+cd ET0735
+
+git clone http.....
+
+(check in the folder )
+
+
+To select appropriate interpreter, 
+Ctrl + Shift + P => Select Python Interpreter => python 3.11 or 3.9
+
+To create Readme file, 
+go to Vs code and create new file called "Readme.md", and add text 
+
+Add file to GitHub, in the VS code terminal, change directory to sample... folder and create readme by doing
+git add Readme.md
+git commit -m "Add...."
+git push , (if there're a lot of branch and only want to push master,  git push -u origin master)
+
+Run samplelabtest1 in terminal
+
+go to terminal, and type "python labsample.py"
+
+to commit changes to git,
+git add * ( to add all)
+git commit -m "...."
+
+To create gitignore file,
+just create new file in vsCode, saying ".gitignore"
+and then add "git add *"
+commit it "git commit -m ...."
+
+
+
+
+
+
+
+
+
+Lab2
+to push Local Git Repository to GitHub, git remote add origin http.....
+to check if it's correctly configure the remote repository,   git remote -v
+if you want to push the contents from master branch to another branch(e.g: temp),    git push origin master:temp
+to set upstream branch and push the master branch to remote repository,    git push --set-upstream origin master 
+
+to create tag,   git tag -a Lab2_v1.0 -m "Completed exercise...."
+to push to github ,    git push origin Lab2_v1.0
+
+
+
+
